@@ -1,0 +1,12 @@
+(defun depth-rec (tree)
+  (labels ((depth-rec-aux (depth)             ; self-recursive function
+             (if (null tree)                  ; no more nodes
+                 depth                        ;   -> return the current depth
+               (let ((n (second tree)))       ; number of subnodes
+                 (pop tree) (pop tree)        ; remove the current node
+                 (case n
+                   (0 (1+ depth))                     ; no subnode,  1+depth
+                   (1 (depth-rec-aux (1+ depth)))     ; one subnode, its depth+1
+                   (2 (max (depth-rec-aux (1+ depth)) ; two subnodes, their max
+                           (depth-rec-aux (1+ depth)))))))))
+    (depth-rec-aux 0))) 

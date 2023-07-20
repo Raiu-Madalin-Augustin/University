@@ -1,0 +1,37 @@
+(defun find (tree node)
+     (labels((find_aux (depth)
+     (cond((eql(car tree) node)
+                 depth
+             );first statement end
+            ((null tree)
+                0
+             );second statement end
+       
+            ((let((n (second tree)))
+               (pop tree) (pop tree)  ;remove current node
+               (case n
+                 (0 (0))
+                 (1 (find_aux (+ 1 depth)))
+                 (2 (let((x find_aux (+ 1 depth))) 
+                     (cond ((/= x 0)
+                            x
+                            );first statement end
+                           (t
+                            (let((x find_aux (+ 1 depth)))
+                                0
+                              )
+                            );second statement end
+                      ));cond 2 end 
+                      
+                  ));2 end
+              
+                 );case end 
+               
+             )
+            );else
+         );cond end
+       );label function
+             );labels end
+   ( find_aux 0 )
+       );labels wrap
+   );find end

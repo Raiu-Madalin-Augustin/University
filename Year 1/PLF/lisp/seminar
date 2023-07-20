@@ -1,0 +1,17 @@
+;write a lisp function to remove from a non-linear list all elements
+;that are multiple of n.Use MAP functions
+;(1  2 b ( 3 4 (5)) 6 ) n=2 => ( 1 b (3 (5)))
+
+;remove(l, n) ={ empty set, if l numeric and l mod n=0
+;              { [l] if l atomic    (1)l-number   l mod n!-0  (2) l nonnumeric
+;              {remove(l1,n) U remove(l2,n)....., if l=l1..lm is a list
+
+(defun removeN(L N)
+  (COND
+   ((AND(numberp L)(ZEROP(MOD L N)))NIL)
+   ((ATOM L) (LIST L))
+   (T(LIST(MAPCAN #'(LAMBDA(X) (removeN X N))L)))
+ )
+)
+
+(DEFUN removeNmain(L N)(CAR(removeN L N)))

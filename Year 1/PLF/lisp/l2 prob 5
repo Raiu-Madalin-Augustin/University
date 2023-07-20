@@ -1,0 +1,89 @@
+;5. Return the level (depth) of a node in a tree of type (1). The level of the root element is 0.
+
+
+; (nivel_x '(A 2 B 0 C 2 D 0 E 0) 'C)
+; (nivel_x '(c 2 b 2 a 0 d 0 e 1 f 0) 'C)
+; (nivel_x '(a 2 b 2 c 1 i 0 f 1 g 0 d 2 e 0 h 0) 'C)
+; (nivel_x '(a 2 b 2 c 1 i 0 f 1 g 0 d 2 e 0 h 0) 'G)
+; (nivel_x '(a 2 b 2 c 1 i 0 f 1 g 0 d 2 e 0 h 0) 'h)
+
+
+
+;left side of a tree iteration
+;parcurg_st(l1...ln,nv,nm) = { [] , n=0
+;			{ [] ,if  nv = 1 + nm (nv = number nodes ; nm = number edges)
+;			{ l1 + l2 + parcurg_st(l3...ln, nv + 1, nm + l2) , otherwise
+
+
+(defun parcurg_st(l nv nm)
+	(cond
+		((null l) nil)
+		((eq nv (+ 1 nm)) nil)
+ 		(t 
+			(append (list (car l)) (list (cadr l)) ( parcurg_st(cddr l) (+ nv 1) (+ nm (cadr l) ) ) )
+		)
+	)
+)
+
+
+
+;function that iterates the right side of the tree
+;parcurg_dr(l1...ln,nv,nm) = { [] , if n=0
+;			{ l1...ln , if nv = 1 + nm (nv = number nodes ; nm = number edges)
+;			{ parcurg_dr(l3...ln, nv + 1, nm + l2) , otherwise
+
+
+(defun parcurg_dr(l nv nm)
+	(cond
+		((null l) nil)
+		((eq nv (+ 1 nm)) l )
+		(t 
+			(append ( parcurg_dr(cddr l) (+ nv 1) (+ nm (cadr l)) ) )
+		)
+	)
+)
+
+
+
+;stanga(l1...ln) = parcurg_st(l1...ln,0,0)
+
+(defun stanga(l)
+	(parcurg_st l 0 0)
+)
+
+
+
+;dreapta(l1...ln) = parcurg_dr(l1...ln,0,0)
+
+(defun dreapta(l)
+	(parcurg_dr l 0 0)
+)
+
+
+
+;search function for every p level if the node apears on it, if it does return the level
+;noduri_nivel(l1...ln,x,nivel) = { 0 ,  n=0
+;				{ nivel , if  l1 = x
+;				{ noduri_nivel(stanga(l3...ln),x,nivel+1) + noduri_nivel(dreapta(l3...ln),x,nivel+1)
+;					, otherwise
+
+(defun noduri_nivel(l x nivel)
+	(cond
+		( (null l) '0)
+		( (eq x (car l))   nivel )
+		( t 
+			(+
+				(noduri_nivel (stanga  (cddr l)) x (+ nivel 1) ) 
+				(noduri_nivel (dreapta (cddr l)) x (+ nivel 1) )
+			) 
+		)
+	)
+)
+
+
+
+;nivel_x(l1...ln,x) = noduri_nivel (l1...ln, x, 0)
+
+(defun nivel_x(l x)
+	(noduri_nivel l x 0)
+)

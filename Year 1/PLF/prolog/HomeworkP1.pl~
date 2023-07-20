@@ -1,0 +1,57 @@
+/*1.a. Write a predicate to determine the lowest common multiple of a list formed from integer numbers.
+b. Write a predicate to add a value v after 1-st, 2-nd, 4-th, 8-th, ... element in a list.
+*/
+
+%a
+/*
+              | A, A=B.
+cmmdc(A,B)=   | cmmdc(A-B,B), A>B.
+              | cmmdc(A,B-A), A<B.
+
+cmmmc(A,B) = | A*B/cmmdc(A,B).
+
+
+                         | 0,  n=0
+cmmmcL(l1,l2,...ln)=     |
+                         |cmmmc(l1, cmmmcL(l2...ln)), n > 0
+
+
+*/
+%flow model cmmdc (i,i,0), cmmmc(i,i,0),cmmmcL(i,o)
+cmmdc(A,A,A).
+cmmdc(A,B,D):- A>B,!, A1 is A-B,cmmdc(A1,B,D).
+cmmdc(A,B,D):- B>A,!, B1 is B-A,cmmdc(A,B1,D).
+
+cmmmc(A,B,M):-P is A*B, cmmdc(A,B,D), M is P/D.
+
+cmmmcL([],0).
+cmmmcL([H|T],M):- cmmmcL(T,M1), cmmmc(H,M1,M).
+
+
+%b
+/*
+                                |
+add_list(l1...ln, V, l1...lm)=  | add_aux(l1..ln, V, 1, 1, l1...lm)
+                                |
+
+                                        | [] , n = 0
+add_aux(l1...ln, V ,Poz ,Con ,l1...lm)= | add_aux(l2..ln, V, Poz*2,Con+1,
+                                                  l1,l2...lm) , Poz=Con
+                                        | add_aux(l2...ln, V, Poz,
+                                                Con+1, l1...lm), Poz!=Con
+
+
+*/
+%flow model add_list(i,i,o), add_aux(i,i,i,o)
+
+add_list(L1,V,L2):- Poz = 1,Con = 1, add_aux(L1,V,Poz,Con,L2).
+
+add_aux([],_,_,_,[]).
+add_aux([H|T],V,Poz,Con,[H|[V|L]]):- Poz is Con, !,
+                                     Poz2 is Poz*2,
+                                     Con2 is Con+1,
+                                     add_aux(T,V,Poz2,Con2,L).
+add_aux([H|T],V,Poz,Con,[H|L]):- not(Poz = Con), !,
+                                 Con2=Con+1,
+                                 add_aux(T,V,Poz,Con2,L).
+

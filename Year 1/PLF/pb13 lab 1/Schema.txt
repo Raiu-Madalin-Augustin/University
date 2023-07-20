@@ -1,0 +1,35 @@
+
+
+13. a. Test the inclusion of two sets, represented as lists.
+
+                    | 0, n=0
+Length(l1,...ln)=   |
+                    | 1+Length(l2,...ln), otherwise
+
+                                |  true , l1 = e
+elementExists(e, l1...ln)=      |  false, n=0
+                                |  elementExists(e,l2...ln), otherwise
+
+
+                         | true, n=0
+check(l1..ln,l2...lm)=   |
+                         | elementExists(l1,l1...lm) && check(l2...ln,l1...lm), otherwise
+
+
+                            |   1, check(l1...ln,l1....lm)is true and n<m
+                            |   2, check(l1...lm,l1....ln) is true and n>m
+inclusion(l1..ln,l1..lm)=   |   3, check(l1...ln,l1....lm)  or check(l1...lm,l1...ln) is true and m=n
+                            |   0, Otherwise
+
+
+
+b. Eliminate all occurrences of an element from a list.
+
+                        |  [] , N==0
+Eliminate(l1...ln,e) =  |  eliminate(l2,..ln) ,e=l1
+                        |  l1 U eliminate(l2,...ln), e!=l1
+
+
+
+
+pb 5 p2

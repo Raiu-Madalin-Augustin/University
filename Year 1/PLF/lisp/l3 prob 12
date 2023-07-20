@@ -1,0 +1,14 @@
+;12.Write a function that substitutes an element through another one at alllevels of a given list.
+(defun inloc(l e p)
+ (cond
+	((equal l e) (list p))
+	((not (equal l e)) (list l))
+	(t (list (mapcar 
+                        (lambda (l) (inloc l e p)
+		
+                         )
+                          l
+                        
+                      )))
+ )
+)

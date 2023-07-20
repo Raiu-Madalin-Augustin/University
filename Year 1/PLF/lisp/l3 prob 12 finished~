@@ -1,0 +1,18 @@
+;12.Write a function that substitutes an element through another one at alllevels of a given list.
+(defun inloc(l e p)
+ (cond
+	((and (equal l e) (atom l))  p)
+	((and (not (equal l e)) (atom l))  l)
+	(t (list (mapcar 
+                        (lambda (l) (inloc l e p)
+		
+                         )
+                          l
+                        
+                      )))
+ )
+)
+; inloc(l, elem, newElem) = 
+; = {l}, if l != elem and l atom
+; = {newElem}, if l = elem and l atom
+; = inloc(l1) U inloc(l2) U ... U inloc(ln), where i = 1,n
