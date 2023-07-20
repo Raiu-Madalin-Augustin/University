@@ -1,0 +1,1954 @@
+--------------------------------- 
+ExeStack:
+(openRFile(ex4.in);(int v;(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+openRFile(ex4.in)
+(int v;(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in)))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+openRFile(ex4.in)
+(int v;(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in)))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+openRFile(ex4.in)
+(int v;(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in)))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+openRFile(ex4.in)
+(int v;(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in)))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+int v
+(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+int v
+(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+int v
+(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+int v
+(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+int v
+(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+int v
+(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+int v
+(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+int v
+(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@6477463f
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+  
+SymTable:
+v --> 15
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+  
+SymTable:
+v --> 15
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+  
+SymTable:
+v --> 15
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+  
+SymTable:
+v --> 15
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+  
+SymTable:
+v --> 15
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+  
+SymTable:
+v --> 15
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+  
+SymTable:
+v --> 15
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+  
+SymTable:
+v --> 15
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+  
+SymTable:
+v --> 15
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+  
+SymTable:
+v --> 15
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+  
+SymTable:
+v --> 15
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+  
+SymTable:
+v --> 15
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+  
+SymTable:
+v --> 15
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+ExeStack:
+  
+SymTable:
+v --> 15
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+(openRFile(ex4.in);(int v;(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+openRFile(ex4.in)
+(int v;(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in)))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+openRFile(ex4.in)
+(int v;(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in)))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+openRFile(ex4.in)
+(int v;(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in)))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+openRFile(ex4.in)
+(int v;(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in)))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+int v
+(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+int v
+(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+int v
+(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+int v
+(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+int v
+(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+int v
+(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+int v
+(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+int v
+(readFile(ex4.in, v);(print(v);(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))))  
+SymTable:
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+print(v)
+(IF (v >= 2) THEN ((readFile(ex4.in, v);print(v))) ELSE (print(-1));closeRFile(ex4.in))  
+SymTable:
+v --> 15
+
+  
+Out: 
+
+ 
+FileTable:
+ex4.in --> java.io.BufferedReader@3d71d552
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+  
+SymTable:
+v --> 50
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+  
+SymTable:
+v --> 50
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+  
+SymTable:
+v --> 50
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+  
+SymTable:
+v --> 50
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+  
+SymTable:
+v --> 50
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+  
+SymTable:
+v --> 50
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+  
+SymTable:
+v --> 50
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+  
+SymTable:
+v --> 50
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+  
+SymTable:
+v --> 50
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+  
+SymTable:
+v --> 50
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+  
+SymTable:
+v --> 50
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+  
+SymTable:
+v --> 50
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+  
+SymTable:
+v --> 50
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+  
+SymTable:
+v --> 50
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+--------------------------------- 
+
+Program ID: 4 + 
+ ExeStack:
+  
+SymTable:
+v --> 50
+
+  
+Out: 
+15
+15
+ 
+FileTable:
+
+ 
+Heap:
+
+Id: 4
+ExeStack:
+openRFile(ex4.in);int v;readFile(ex4.in, v);print(v);IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+Out:
+FileTable:
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+openRFile(ex4.in)
+int v;readFile(ex4.in, v);print(v);IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+Out:
+FileTable:
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+openRFile(ex4.in)
+int v;readFile(ex4.in, v);print(v);IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+Out:
+FileTable:
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+openRFile(ex4.in)
+int v;readFile(ex4.in, v);print(v);IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+Out:
+FileTable:
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+int v;readFile(ex4.in, v);print(v);IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+Out:
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+int v;readFile(ex4.in, v);print(v);IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+Out:
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+int v;readFile(ex4.in, v);print(v);IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+Out:
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+int v
+readFile(ex4.in, v);print(v);IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+Out:
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+int v
+readFile(ex4.in, v);print(v);IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+Out:
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+int v
+readFile(ex4.in, v);print(v);IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+Out:
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+readFile(ex4.in, v);print(v);IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+v --> 0
+Out:
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+readFile(ex4.in, v);print(v);IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+v --> 0
+Out:
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+readFile(ex4.in, v);print(v);IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+v --> 0
+Out:
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+readFile(ex4.in, v)
+print(v);IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+v --> 0
+Out:
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+readFile(ex4.in, v)
+print(v);IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+v --> 0
+Out:
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+readFile(ex4.in, v)
+print(v);IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+v --> 0
+Out:
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+print(v);IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+v --> 15
+Out:
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+print(v);IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+v --> 15
+Out:
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+print(v);IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+v --> 15
+Out:
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+print(v)
+IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+v --> 15
+Out:
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+print(v)
+IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+v --> 15
+Out:
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+print(v)
+IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+v --> 15
+Out:
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+v --> 15
+Out:
+15
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+v --> 15
+Out:
+15
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1));closeRFile(ex4.in)
+SymTable:
+v --> 15
+Out:
+15
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1))
+closeRFile(ex4.in)
+SymTable:
+v --> 15
+Out:
+15
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1))
+closeRFile(ex4.in)
+SymTable:
+v --> 15
+Out:
+15
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+IF (v >= 2) THEN (readFile(ex4.in, v);print(v)) ELSE (print(-1))
+closeRFile(ex4.in)
+SymTable:
+v --> 15
+Out:
+15
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+readFile(ex4.in, v);print(v)
+closeRFile(ex4.in)
+SymTable:
+v --> 15
+Out:
+15
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+readFile(ex4.in, v);print(v)
+closeRFile(ex4.in)
+SymTable:
+v --> 15
+Out:
+15
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+readFile(ex4.in, v);print(v)
+closeRFile(ex4.in)
+SymTable:
+v --> 15
+Out:
+15
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+readFile(ex4.in, v)
+print(v)
+closeRFile(ex4.in)
+SymTable:
+v --> 15
+Out:
+15
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+readFile(ex4.in, v)
+print(v)
+closeRFile(ex4.in)
+SymTable:
+v --> 15
+Out:
+15
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+readFile(ex4.in, v)
+print(v)
+closeRFile(ex4.in)
+SymTable:
+v --> 15
+Out:
+15
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+print(v)
+closeRFile(ex4.in)
+SymTable:
+v --> 50
+Out:
+15
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+print(v)
+closeRFile(ex4.in)
+SymTable:
+v --> 50
+Out:
+15
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+print(v)
+closeRFile(ex4.in)
+SymTable:
+v --> 50
+Out:
+15
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+closeRFile(ex4.in)
+SymTable:
+v --> 50
+Out:
+15
+50
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+closeRFile(ex4.in)
+SymTable:
+v --> 50
+Out:
+15
+50
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+closeRFile(ex4.in)
+SymTable:
+v --> 50
+Out:
+15
+50
+FileTable:
+ex4.in
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+SymTable:
+v --> 50
+Out:
+15
+50
+FileTable:
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Id: 4
+ExeStack:
+SymTable:
+v --> 50
+Out:
+15
+50
+FileTable:
+Heap:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
